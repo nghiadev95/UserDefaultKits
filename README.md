@@ -1,21 +1,17 @@
+[![Build Status](https://github.com/quangnghiadev/UserDefaultKits/workflows/CI/badge.svg?branch=master)](https://github.com/quangnghiadev/UserDefaultKits/actions)
+[![SPM compatible](https://img.shields.io/badge/SPM-Compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
+[![Swift](https://img.shields.io/badge/Swift-5.3-orange.svg)](https://swift.org)
+[![Xcode](https://img.shields.io/badge/Xcode-11.6-blue.svg)](https://developer.apple.com/xcode)
+[![MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
+
+# UserDefaultKits
+
 **UserDefaultKits** Property Wrapper of User Default for saving custom Codable object / variable
 
 ## Installation
 
 ### Swift Package Manager
-You can use The Swift Package Manager to install UserDefaultKits by adding the proper description to your `Package.swift` 
-
-```swift
-import PackageDescription
-
-let package = Package(
-    name: "YOUR_PROJECT_NAME",
-    targets: [],
-    dependencies: [
-        .package(url: "https://github.com/nghiadev95/UserDefaultKits.git", from: "1.0.0")
-    ]
-)
-```
+You can use The Swift Package Manager to install UserDefaultKits by adding https://github.com/quangnghiadev/UserDefaultKits.git to Swift Package of your XCode project
 
 
 ## Usage
